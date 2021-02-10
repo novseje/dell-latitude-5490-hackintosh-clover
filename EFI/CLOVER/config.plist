@@ -301,7 +301,7 @@
 		<key>Log</key>
 		<false/>
 		<key>Arguments</key>
-		<string>dart=0 -disablegfxfirmware debug=0x100 -wegnoegpu</string>
+		<string>dart=0 -disablegfxfirmware debug=0x100 igfxonln=1</string>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 		<key>Timeout</key>
@@ -441,34 +441,34 @@
 		<key>#AddProperties</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
+				<key>Value</key>
+				<data>b25ib2FyZC0xAA==</data>
+				<key>Key</key>
+				<string>hda-gfx</string>
 				<key>Device</key>
 				<string>IntelGFX</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Value</key>
 				<data>b25ib2FyZC0xAA==</data>
 				<key>Key</key>
 				<string>hda-gfx</string>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
-			</dict>
-			<dict>
 				<key>Device</key>
 				<string>HDA</string>
-				<key>Value</key>
-				<data>b25ib2FyZC0xAA==</data>
-				<key>Key</key>
-				<string>hda-gfx</string>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
 			</dict>
 			<dict>
-				<key>Device</key>
-				<string>HDA</string>
+				<key>Comment</key>
+				<string>layout-id=3</string>
 				<key>Value</key>
 				<data>AwAAAA==</data>
 				<key>Key</key>
 				<string>layout-id</string>
-				<key>Comment</key>
-				<string>layout-id=3</string>
+				<key>Device</key>
+				<string>HDA</string>
 			</dict>
 			<dict>
 				<key>Key</key>
@@ -690,35 +690,35 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
+		<string>0xFF0FF57E</string>
 		<key>Board-ID</key>
-		<string>Mac-827FB448E656EC26</string>
+		<string>Mac-CAD6701F7CEA0921</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFF1FFF7F</string>
 		<key>BoardVersion</key>
-		<string>1.0</string>
+		<string>MacBookPro14,2</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x09</string>
+		<string>0x9</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.1909172038</string>
+		<string>MBP142.88Z.F000.B00.2101051914</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>Asset Tag#</string>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0x1A</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02847270GUJH4R8C</string>
+		<string>C02703301J9HRPCA8</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>MacBookPro14,2</string>
 		<key>SmUUID</key>
 		<string>C3F82E59-3434-45DF-8704-ECD12351A315</string>
 		<key>Mobile</key>
@@ -726,7 +726,7 @@
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>EfiVersion</key>
-		<string>1037.0.78.0.0</string>
+		<string>429.80.1.0.0</string>
 		<key>SerialNumber</key>
 		<string>C02XQKYFJHCD</string>
 		<key>ProductName-Comment</key>
@@ -734,7 +734,7 @@
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2019</string>
+		<string>01/05/2021</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
