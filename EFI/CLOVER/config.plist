@@ -372,11 +372,15 @@
 				<data>AAAwAQ==</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>EgAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>device_type</key>
 				<string>display</string>
 				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
@@ -384,8 +388,12 @@
 				<string>Internal@0,2,0</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWWQ==</data>
+				<key>framebuffer-con1-flags</key>
+				<data>hwEAAA==</data>
 				<key>model</key>
 				<string>Intel HD Graphics 620</string>
+				<key>framebuffer-con1-enable</key>
+				<integer>1</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x03)</key>
 			<dict>
@@ -437,30 +445,30 @@
 				<string>IntelGFX</string>
 				<key>Value</key>
 				<data>b25ib2FyZC0xAA==</data>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Key</key>
 				<string>hda-gfx</string>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
 			</dict>
 			<dict>
 				<key>Device</key>
 				<string>HDA</string>
 				<key>Value</key>
 				<data>b25ib2FyZC0xAA==</data>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Key</key>
 				<string>hda-gfx</string>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
 			</dict>
 			<dict>
 				<key>Device</key>
 				<string>HDA</string>
 				<key>Value</key>
 				<data>AwAAAA==</data>
-				<key>Comment</key>
-				<string>layout-id=3</string>
 				<key>Key</key>
 				<string>layout-id</string>
+				<key>Comment</key>
+				<string>layout-id=3</string>
 			</dict>
 			<dict>
 				<key>Key</key>
@@ -662,7 +670,7 @@
 			</dict>
 		</array>
 		<key>DellSMBIOSPatch</key>
-		<false/>
+		<true/>
 		<key>AppleIntelCPUPM</key>
 		<false/>
 		<key>KernelLapic</key>
